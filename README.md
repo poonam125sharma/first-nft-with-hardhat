@@ -12,4 +12,6 @@ npx hardhat test
 npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
+npx hardhat verify --contract "contracts/NFTee.sol:NFTee" --network 
+ropsten 0x232727Bf0731B8cF10Da8A84E6fbaE1Adf5a02fd "LW3 First NFT" "LW3FN"
 ```
